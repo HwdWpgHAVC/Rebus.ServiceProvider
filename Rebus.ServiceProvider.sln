@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.WebApp", "Sample.Web
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.ConsoleApp", "Sample.ConsoleApp\Sample.ConsoleApp.csproj", "{9C143F53-CDDC-487B-883C-E9AD86DDC2C5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rebus", "..\Rebus\Rebus\Rebus.csproj", "{E2D8BABC-062C-4955-8F0A-5FA26E939313}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{9C143F53-CDDC-487B-883C-E9AD86DDC2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C143F53-CDDC-487B-883C-E9AD86DDC2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C143F53-CDDC-487B-883C-E9AD86DDC2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D8BABC-062C-4955-8F0A-5FA26E939313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D8BABC-062C-4955-8F0A-5FA26E939313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D8BABC-062C-4955-8F0A-5FA26E939313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D8BABC-062C-4955-8F0A-5FA26E939313}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

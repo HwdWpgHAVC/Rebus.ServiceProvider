@@ -54,7 +54,7 @@ public class DigOutServiceProviderScopeInOutgoingStep : FixtureBase
     {
         public async Task Process(OutgoingStepContext context, Func<Task> next)
         {
-            var scope = context.GetAsyncServiceScopeOrNull();
+            var scope = context.GetServiceScopeOrNull();
 
             if (scope != null)
             {

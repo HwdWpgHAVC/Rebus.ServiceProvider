@@ -7,6 +7,7 @@ using NUnit.Framework;
 using Rebus.Activation;
 using Rebus.Config;
 using Rebus.Handlers;
+using Rebus.Retry;
 using Rebus.Retry.Simple;
 using Rebus.Routing.TypeBased;
 using Rebus.Tests.Contracts;
@@ -235,6 +236,7 @@ public class FailedMessage<T> : IFailed<T>
     public string ErrorDescription { get; }
     public Dictionary<string, string> Headers { get; }
     public IEnumerable<Exception> Exceptions { get; }
+    IEnumerable<ExceptionInfo> IFailed<T>.Exceptions { get; }
 }
 
 public class FailedMessageHandler : IHandleMessages<IFailed<object>>
