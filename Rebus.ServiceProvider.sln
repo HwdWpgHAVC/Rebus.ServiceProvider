@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rebus", "..\Rebus\Rebus\Reb
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rebus.Serilog", "..\Rebus.Serilog\Rebus.Serilog\Rebus.Serilog.csproj", "{C136AFEB-8A2A-43C0-BF0A-B9D71E496D4A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rebus.AzureBlobs", "..\Rebus.AzureBlobs\Rebus.AzureBlobs\Rebus.AzureBlobs.csproj", "{646617CC-9F79-4479-9E9E-AF059FB7761A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{C136AFEB-8A2A-43C0-BF0A-B9D71E496D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C136AFEB-8A2A-43C0-BF0A-B9D71E496D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C136AFEB-8A2A-43C0-BF0A-B9D71E496D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646617CC-9F79-4479-9E9E-AF059FB7761A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646617CC-9F79-4479-9E9E-AF059FB7761A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646617CC-9F79-4479-9E9E-AF059FB7761A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646617CC-9F79-4479-9E9E-AF059FB7761A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
